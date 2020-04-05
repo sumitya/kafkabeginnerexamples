@@ -6,7 +6,13 @@
 
   <groupId>examples.kafka</groupId>
   <artifactId>kafka-beginner-examples</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>kafka-consumer-elasticsearch</module>
+    <module>basic-consumers-producers</module>
+    <module>kafka-producer-twitter</module>
+  </modules>
 
   <name>kafka-beginner-examples</name>
   <!-- FIXME change it to the project's website -->
@@ -25,29 +31,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
-    <dependency>
-      <groupId>org.apache.kafka</groupId>
-      <artifactId>kafka-clients</artifactId>
-      <version>2.4.1</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-simple</artifactId>
-      <version>1.7.25</version>
-      <!--<scope>test</scope>-->
-    </dependency>
-
-      <!--twitter dependency-->
-      <dependency>
-        <groupId>com.twitter</groupId>
-        <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
-        <version>2.2.0</version> <!-- or whatever the latest version is -->
-      </dependency>
-
 
   </dependencies>
 

@@ -1,4 +1,6 @@
 # Apache Kafka Beginners Examples
 **Kafka beginners Examples**
-1. How to Create Producers, Producers with keys.
-2. How to Create Consumers.
+This project has three modules:
+1. Basic examples for how to create Producers, Producers with keys, Create Consumers.
+2. Twitter Producer
+3. ElasticSearch Consumer.
