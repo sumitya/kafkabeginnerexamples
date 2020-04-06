@@ -12,6 +12,8 @@
     <module>kafka-consumer-elasticsearch</module>
     <module>basic-consumers-producers</module>
     <module>kafka-producer-twitter</module>
+      <module>kafka-connect</module>
+      <module>kafka-streams-filter-tweets</module>
   </modules>
 
   <name>kafka-beginner-examples</name>

@@ -1,5 +1,7 @@
 target/
+**/target/
 .idea/
 src/main/resources/
 src/test/java/
 *.iml
+**/connectors/
